@@ -6,25 +6,23 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Install the packages using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install -r requirements.txt
 
-Creating recipes
+Using scrapeutils
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To retrieve the beautifulsoup object for a given url,
+you can use the ``scrapeutils.GetSoup()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: scrapeutils.GetSoup
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+The ``URL`` parameter should be the URL string.
+The ``type`` should be the parser to be used.
 
-.. autoexception:: lumache.InvalidKindError
 
 For example:
 
