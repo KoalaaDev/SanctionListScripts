@@ -1,9 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../.'))
+import SanctionListScripts.scrapeutils as scrapeutils
 # -- Project information
-project = 'Sanction Scripts'
+project = 'Sanction List Scripts'
 author = 'KoalaaDev'
 
 release = '0.1'
