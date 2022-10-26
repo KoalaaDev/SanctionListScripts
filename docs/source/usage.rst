@@ -14,5 +14,5 @@ Install the packages using pip:
 
 Using scrapeutils
 ----------------
-.. automodule:: SanctionListScripts
+.. automodule:: scrapeutils
    :members:
