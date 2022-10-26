@@ -8,7 +8,7 @@ Check out the :doc:`usage` section for information about dbutils, scrapeutils an
 
 Prerequisites
 -------------
-* Python 3.6 or higher
+* Python 3.10
 * install packages from requirements.txt
 * A database
 
