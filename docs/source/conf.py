@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 import os
 import sys
+sys.path.insert(0, os.path.abspath('..'))
 # -- Project information
 
 project = 'Sanction Scripts'
@@ -10,7 +11,6 @@ release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
-sys.path.insert(0, os.path.abspath('..'))
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
