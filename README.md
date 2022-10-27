@@ -17,4 +17,4 @@ Install all requirements with requirements.txt. Project used python 3.10
         task11.py # Russia Sanctions Register (New Zealand) python file
         task12.py # EU Asset-Freeze List python file
         task13.py # Poland's Act on special measures against Russia python file
-        
+        task14.py # UK Sanctions list python file
